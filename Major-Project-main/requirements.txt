@@ -43,7 +43,45 @@ setuptools>=70.0.0 # Snyk vulnerability fix
 # tritonclient[all]~=2.24.0
 
 # Extras ----------------------------------------------------------------------
+
 # ipython  # interactive notebook
 # mss  # screenshots
 # albumentations>=1.0.3
 # pycocotools>=2.0.6  # COCO mAP
+
+# Web Framework
+
+flask==2.3.3
+gunicorn==21.2.0
+flask-socketio==5.3.6
+eventlet==0.36.1
+
+# AI / Deep Learning
+
+torch>=1.8.0
+torchvision>=0.9.0
+ultralytics>=8.2.34
+
+# Image Processing
+
+opencv-python==4.9.0.80
+numpy>=1.23.5
+pillow>=10.3.0
+
+# Utilities
+
+PyYAML>=6.0
+requests>=2.32.2
+tqdm>=4.66.3
+psutil>=5.9.8
+
+# Data Visualization
+
+pandas>=1.5.3
+matplotlib>=3.7.5
+seaborn>=0.13.2
+
+# System / Build
+
+setuptools>=70.0.0
+
